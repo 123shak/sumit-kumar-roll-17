@@ -8,7 +8,7 @@ main()
 	int Proc_no,j,no,CurT,RemProc,indicator,time_quan,wait,tut,arT[10],bsT[10],remt[10],x=1;
 	indicator = 0;
 	wait = 0;
-	tut = 1;
+	tut = 0;
 	printf("Enter number of processes ");
 	scanf("%d",&no);
 	RemProc = no;
