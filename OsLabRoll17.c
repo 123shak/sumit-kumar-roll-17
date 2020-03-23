@@ -23,6 +23,17 @@ main()
 		scanf("%d",&bsT[Proc_no]);
 		remt[Proc_no]=bsT[Proc_no];
 	}
+		printf("problem to be solved is:\n\n\n");
+	printf("process_no         arrival time           burst time\n");
+
+		for(Proc_no = 0;Proc_no < no;Proc_no++)
+	{
+
+		printf("p%d",Proc_no+1);
+		printf("\t\t\t%d",arT[Proc_no]);
+		printf("\t\t\t%d",bsT[Proc_no]);
+		printf("\n");
+	}
 }
 	printf("The details of time quantum are as follows:\n");
 	printf("The time quantum for first round is 6.\n");
