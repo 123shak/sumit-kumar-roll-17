@@ -120,12 +120,12 @@ void rr(int no,int remt[10],int Cur_t,int arT[10], int bsT[10]){
         Proc_no[loc]=temp;
     }
 
-    for(i=1;i<n;i++)
+    for(i=0;i<n;i++)
     {
         for(j=0;j<i;j++){
         	w_time[i]+=btime[j];
         }
-        total+=w_time[i];
+        total=total+w_time[i];
     }
 
     avg_wait=(float)total/n;
